@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar AngularJS</title>
+	
+</head>
+<body ng-app="gua">
+
+	<div ng-controller="ctrl">
+		{{judul}}<br><br>
+		<h1>{{ket}}</h1><br>
+		<p>Nama : {{mahasiswa.nama}}<br>
+		Jurusan: {{mahasiswa.jurusan}}<br>
+		Angkatan : {{mahasiswa.angkatan | date}}</p>
+	</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src= "js/app.js"></script>
+<script src="js/controllers/MainController.js"></script>
+
+</body>
+</html>
